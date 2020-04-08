@@ -128,6 +128,8 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0.11</string>
+	<key>DOCS_BASE_URL</key>
+	<string>$(DOCS_BASE_URL)</string>
 	<key>GITHUB_CLIENT_ID</key>
 	<string>$(GITHUB_CLIENT_ID)</string>
 	<key>GOOGLE_CLIENT_ID</key>

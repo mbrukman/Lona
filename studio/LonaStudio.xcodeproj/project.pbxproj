@@ -30,6 +30,7 @@
 		036A4EA921E2469D00948DBD /* DirectoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A4EA821E2469D00948DBD /* DirectoryViewController.swift */; };
 		039952C721E50D31008310DB /* MarkdownEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039952C621E50D31008310DB /* MarkdownEditor.swift */; };
 		03D436C124280CF60097A9F2 /* lona-schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 03D436C024280CF50097A9F2 /* lona-schema.json */; };
+		03D5A687243DB2A2004AC5EB /* LonaOrganization+url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D5A686243DB2A2004AC5EB /* LonaOrganization+url.swift */; };
 		03E1AE8B240FA75C0061E93A /* getDeploymentStatus.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 03E1AE8A240FA75C0061E93A /* getDeploymentStatus.graphql */; };
 		03E1AE8D240FAB180061E93A /* github-schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 03E1AE8C240FAB180061E93A /* github-schema.json */; };
 		300302741EDC7FA90085E140 /* CSStatementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300302731EDC7FA90085E140 /* CSStatementView.swift */; };
@@ -443,6 +444,7 @@
 		036A4EA821E2469D00948DBD /* DirectoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryViewController.swift; sourceTree = "<group>"; };
 		039952C621E50D31008310DB /* MarkdownEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownEditor.swift; sourceTree = "<group>"; };
 		03D436C024280CF50097A9F2 /* lona-schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "lona-schema.json"; sourceTree = "<group>"; };
+		03D5A686243DB2A2004AC5EB /* LonaOrganization+url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LonaOrganization+url.swift"; sourceTree = "<group>"; };
 		03E1AE8A240FA75C0061E93A /* getDeploymentStatus.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = getDeploymentStatus.graphql; sourceTree = "<group>"; };
 		03E1AE8C240FAB180061E93A /* github-schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "github-schema.json"; sourceTree = "<group>"; };
 		300302731EDC7FA90085E140 /* CSStatementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSStatementView.swift; sourceTree = "<group>"; };
@@ -830,6 +832,7 @@
 				03D436C024280CF50097A9F2 /* lona-schema.json */,
 				0304A72623FD28A1009A1E82 /* GitHubAPI.swift */,
 				0304A71E23FD26CE009A1E82 /* LonaAPI.swift */,
+				03D5A686243DB2A2004AC5EB /* LonaOrganization+url.swift */,
 				0304A72323FD2712009A1E82 /* GitHub */,
 				0304A71C23FD241A009A1E82 /* Lona */,
 			);
@@ -1920,6 +1923,7 @@
 				303C3FF520A4E3C1008E1541 /* ComponentPreviewCollection.swift in Sources */,
 				3090D7D31F032305009277E7 /* CSComponentLayer.swift in Sources */,
 				6B73809422C66E59007534A0 /* TemplateBrowser.swift in Sources */,
+				03D5A687243DB2A2004AC5EB /* LonaOrganization+url.swift in Sources */,
 				6B8D7DA321BF04B60087A3F7 /* InspectorSectionHeader.swift in Sources */,
 				6B1086FB217A34340024AE56 /* Data+String.swift in Sources */,
 				6BE6343A2437F97A00C972AF /* ThemedSidebarView.swift in Sources */,
@@ -2299,6 +2303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
+				DOCS_BASE_URL = "https://dev.docs.lona.design";
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2331,6 +2336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
+				DOCS_BASE_URL = "https://docs.lona.design";
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
